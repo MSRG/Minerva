@@ -1,5 +1,5 @@
 # Minerva
-Artifact Repository for Machine Learning Models *Epoch-based Optimistic Concurrency Control in Geo-replicated Databases*.
+Artifact Repository for *Epoch-based Optimistic Concurrency Control in Geo-replicated Databases*.
 
 ## Dependencies
 1. Python 3.10+
