@@ -1,0 +1,25 @@
+{
+    "Latency": [[0, 0], [100, 20]],
+    "MinervaConfig": {
+        "SolverExact": true,
+        "LocalEpochInterval": 5,
+        "CoordinatorGlobalEpochInterval": 15
+    },
+    "BenchmarkConfig": {
+        "benchmark_type": "YCSB",
+        "duration": 30,
+        "clients": 800,
+        "servers": 3
+    },
+    "TPCCConfig": {
+        "NumWarehouse": 100
+    },
+    "YCSBConfig": {
+        "YCSB_type": "A",
+        "contention_ratio": 0,
+        "transaction_size": 10,
+        "key_size": 10,
+        "value_size": 1000,
+        "record_count": 10000000
+    }
+}
