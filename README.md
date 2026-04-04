@@ -10,7 +10,7 @@ Artifact Repository for *Epoch-based Optimistic Concurrency Control in Geo-repli
 1. Clone the repository
 2. Build the StableSolver submodule, check readme in `Minerva/StableSolver/README.md` for instructions. There are additional dependencies for StableSolver. Pre-built binaries for Ubuntu 24.04 are provided. (Tested on Ubuntu 24.04 and 22.04)
 
-Minerva consists of database server application and client application. The database server runs in a cluster and must have > 3 nodes for fault tolerance. The client application can be run on any machine and connect to each server through TPC sockets.
+Minerva consists of database server application and client application. The database server runs in a cluster and must have > 3 nodes for fault tolerance. The client application can be run on any machine and connect to each server through TCP sockets.
 
 ### One-Click Benchmarking Script
 
