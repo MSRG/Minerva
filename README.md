@@ -76,3 +76,25 @@ Set `pre_load_db` to true if the server database is set to read from Storage oth
 
 To store the database, under `src/Client/BenchmarkInterface.cs`, uncomment `//runner.SaveDatabase().Wait();` and comment out `BenchmarkResult result = runner.RunBenchmark();` lines. You can change `persistentStorage.SaveStorageToDisk("/home/ubuntu/minerva_data/");` line in `src\DB-Server\Interface\QueryHandler.cs` to store the database files to a different location,
 
+
+## Cite Our Paper
+```
+@article{10.1145/3802052,
+author = {Mao, Yunhao and Takata, Harunari and Bachras, Michail and Zhang, Yuqiu and Zhang, Shiquan and Zhang, Gengrui and Jacobsen, Hans-Arno},
+title = {Epoch-based Optimistic Concurrency Control in Geo-replicated Databases},
+year = {2026},
+issue_date = {June 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {3},
+url = {https://doi.org/10.1145/3802052},
+doi = {10.1145/3802052},
+journal = {Proc. ACM Manag. Data},
+month = may,
+articleno = {175},
+numpages = {27},
+keywords = {distributed transactions, multi-leader replication, deterministic concurrency control, geo-replication}
+}
+```
+
